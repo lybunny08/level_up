@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Pp neue montreal";
+  src: url("./assets/fonts/Neue-Montreal/4b5c5bec6248f51c46f292e5d3af7da2.woff2");
+}
+
+body{
+
+  scroll-behavior: smooth;
+  font-family: "Pp neue montreal";
+}
